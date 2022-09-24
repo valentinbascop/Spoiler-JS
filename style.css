@@ -1,0 +1,24 @@
+.spoiler-content{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.5s;;
+}
+
+.spoiler button{
+    background-color: yellow;
+}
+
+.spoiler-content.visible{
+    display: block;
+    width: auto;
+    height: auto;
+    opacity: 1;
+}
+
+body{
+    background-color: #252525;
+    color: grey;
+}
